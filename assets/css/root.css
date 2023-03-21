@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* root */
+:root {
+    /* font_size */
+
+    --fs-sm: 50px;
+    --fs-ss: 40px;
+    --fs-xsm: 20px;
+
+
+
+    --color-blue: #007FEF;
+    --color-black: #000000;
+    --color-clr_black: #000000;
+    --color-orange: #F1875E;
+}
+
+/* color */
+.blue {
+    color: var(--color-blue) !important;
+}
+
+.black {
+    background-color: var(--color-black) !important;
+}
+
+.orange {
+    color: var(--color-orange) !important;
+}
+
+.clr_black {
+    color: var(--color-clr_black) !important;
+}
+
+
+
+/* font_size */
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_ss {
+    font-size: var(--fs-ss);
+}
+
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+/* font-family */
+.Poppins {
+    font-family: 'Poppins';
+}
+
+/* font_w */
+.fw_700 {
+    font-weight: 700;
+}
+
+
+
+@media (min-width:576px) {
+
+    :root {
+        --fs-sm: 96px;
+        --fs-ss: 48px;
+        --fs-xsm: 20px;
+
+    }
+}
